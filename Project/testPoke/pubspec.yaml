@@ -1,0 +1,288 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/teste-dev-estagio/images/frame-1.png
+    - assets/teste-dev-estagio/images/bx-bx-search-alt.png
+    - assets/teste-dev-estagio/images/group.png
+    - assets/styleguide/images/property-1selected.png
+    - assets/teste-dev-estagio/images/group-ZnT.png
+    - assets/teste-dev-estagio/images/group-Pqu.png
+    - assets/teste-dev-estagio/images/image-1.png
+    - assets/teste-dev-estagio/images/group-juV.png
+    - assets/teste-dev-estagio/images/group-e8s.png
+    - assets/teste-dev-estagio/images/vector-3-93q.png
+    - assets/styleguide/images/image-1-RMD.png
+    - assets/teste-dev-estagio/images/vector-3.png
+    - assets/teste-dev-estagio/images/group-j1D.png
+    - assets/teste-dev-estagio/images/bi-arrow-up-short.png
+    - assets/teste-dev-estagio/images/group-c67.png
+    - assets/teste-dev-estagio/images/group-Eaf.png
+    - assets/teste-dev-estagio/images/vector-3-z1H.png
+    - assets/teste-dev-estagio/images/bx-bx-search-alt-HBq.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg.png
+    - assets/teste-dev-estagio/images/carbon-recently-viewed.png
+    - assets/styleguide/images/property-1unselected.png
+    - assets/teste-dev-estagio/images/vector-6.png
+    - assets/teste-dev-estagio/images/image-1-LyR.png
+    - assets/teste-dev-estagio/images/group-mxF.png
+    - assets/teste-dev-estagio/images/vector-6-buD.png
+    - assets/teste-dev-/images/image-1-iD9.png
+    - assets/teste-dev-estagio/images/group-2iP.png
+    - assets/teste-dev-/images/frame-1-Y8B.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-PXy.png
+    - assets/teste-dev-estagio/images/vector-4.png
+    - assets/teste-dev-estagio/images/carbon-recently-viewed-yK9.png
+    - assets/teste-dev-estagio/images/group-Haj.png
+    - assets/teste-dev-estagio/images/iconfavoritar.png
+    - assets/teste-dev-estagio/images/ant-design-star-filled.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-q4P.png
+    - assets/teste-dev-estagio/images/group-L6F.png
+    - assets/teste-dev-estagio/images/group-Pu5.png
+    - assets/teste-dev-/images/frame-1-LW7.png
+    - assets/teste-dev-/images/vector-4-MvK.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-dmu.png
+    - assets/teste-dev-/images/ellipse-8-bg-t3u.png
+    - assets/teste-dev-/images/group-a5Z.png
+    - assets/teste-dev-estagio/images/iconfavoritar-o6j.png
+    - assets/teste-dev-estagio/images/group-TBH.png
+    - assets/teste-dev-estagio/images/group-c4B.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-Qqq.png
+    - assets/teste-dev-estagio/images/vector-7.png
+    - assets/teste-dev-/images/vector-4-TGF.png
+    - assets/teste-dev-/images/vector-7-AAf.png
+    - assets/teste-dev-/images/group-5oR.png
+    - assets/teste-dev-estagio/images/group-ozK.png
+    - assets/teste-dev-estagio/images/vector-3-E43.png
+    - assets/teste-dev-estagio/images/iconfavoritar-wz3.png
+    - assets/teste-dev-estagio/images/vector-5.png
+    - assets/teste-dev-/images/vector-5-nzf.png
+    - assets/teste-dev-/images/vector-5-vb5.png
+    - assets/teste-dev-estagio/images/carbon-recently-viewed-9ij.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-bby.png
+    - assets/teste-dev-estagio/images/vector-7-hQf.png
+    - assets/teste-dev-estagio/images/eva-close-outline.png
+    - assets/teste-dev-estagio/images/header.png
+    - assets/teste-dev-/images/vector-4-w7y.png
+    - assets/teste-dev-/images/vector-4-qDM.png
+    - assets/teste-dev-estagio/images/header-Djh.png
+    - assets/teste-dev-/images/bx-bx-search-alt-Y1H.png
+    - assets/teste-dev-estagio/images/vector-3-TC7.png
+    - assets/teste-dev-/images/vector-3-N1R.png
+    - assets/teste-dev-estagio/images/vector-3-4Q3.png
+    - assets/teste-dev-/images/vector-4-A4K.png
+    - assets/teste-dev-estagio/images/group-Gd9.png
+    - assets/teste-dev-/images/group-Zs9.png
+    - assets/teste-dev-estagio/images/vector-7-WnF.png
+    - assets/teste-dev-/images/vector-3-6R1.png
+    - assets/teste-dev-/images/vector-6-p67.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-LaF.png
+    - assets/teste-dev-estagio/images/group-ZbR.png
+    - assets/teste-dev-estagio/images/vector-7-3Sb.png
+    - assets/teste-dev-/images/group-8iw.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-h9m.png
+    - assets/teste-dev-/images/vector-5-QK5.png
+    - assets/teste-dev-/images/vector-4-5g7.png
+    - assets/teste-dev-estagio/images/group-N2w.png
+    - assets/teste-dev-estagio/images/frame-1-5CF.png
+    - assets/teste-dev-estagio/images/vector-4-zq1.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-tvP.png
+    - assets/teste-dev-estagio/images/vector-5-2mh.png
+    - assets/teste-dev-/images/group-wtf.png
+    - assets/teste-dev-/images/group-fJs.png
+    - assets/teste-dev-estagio/images/vector-4-aAw.png
+    - assets/teste-dev-/images/image-1-TrK.png
+    - assets/teste-dev-estagio/images/bx-bx-search-alt-kzf.png
+    - assets/teste-dev-estagio/images/vector-3-jxw.png
+    - assets/teste-dev-estagio/images/vector-6-Cbd.png
+    - assets/teste-dev-/images/vector-3-8oD.png
+    - assets/teste-dev-/images/ellipse-8-bg-RUo.png
+    - assets/teste-dev-/images/ellipse-8-bg-h47.png
+    - assets/teste-dev-/images/vector-5-6v7.png
+    - assets/teste-dev-/images/group-ZN3.png
+    - assets/teste-dev-/images/ellipse-8-bg-paP.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-YLB.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-K1V.png
+    - assets/teste-dev-estagio/images/vector-7-X9M.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-TSK.png
+    - assets/teste-dev-/images/group-PKy.png
+    - assets/teste-dev-/images/bx-bx-search-alt-AV9.png
+    - assets/teste-dev-/images/ellipse-8-bg-b4f.png
+    - assets/teste-dev-/images/ellipse-8-bg-sK9.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-71d.png
+    - assets/teste-dev-/images/ellipse-8-bg-aA7.png
+    - assets/teste-dev-estagio/images/header-tuR.png
+    - assets/teste-dev-estagio/images/bi-arrow-up-short-Mo1.png
+    - assets/teste-dev-estagio/images/vector-5-Tr3.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-BX9.png
+    - assets/teste-dev-/images/group-twM.png
+    - assets/teste-dev-/images/bi-arrow-up-short-Q91.png
+    - assets/teste-dev-/images/ellipse-8-bg-FKy.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-xEP.png
+    - assets/teste-dev-/images/ellipse-8-bg-GVy.png
+    - assets/teste-dev-/images/vector-7-zk3.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-2Tm.png
+    - assets/teste-dev-estagio/images/ellipse-8-bg-4H9.png
+    - assets/teste-dev-estagio/images/group-SD9.png
+    - assets/teste-dev-estagio/images/group-BMV.png
+    - assets/teste-dev-/images/bx-bx-search-alt-nSP.png
+    - assets/teste-dev-/images/vector-6-Meb.png
+    - assets/teste-dev-/images/ellipse-8-bg-Qzf.png
+    - assets/teste-dev-/images/ellipse-8-bg-TfH.png
+    - assets/teste-dev-/images/ellipse-8-bg-bkf.png
+    - assets/teste-dev-/images/ellipse-8-bg-joq.png
+    - assets/teste-dev-/images/group-7QF.png
+    - assets/teste-dev-/images/vector-6-P6b.png
+    - assets/teste-dev-/images/vector-4-LPm.png
+    - assets/teste-dev-/images/group-vu1.png
+    - assets/teste-dev-/images/vector-7-8mq.png
+    - assets/teste-dev-/images/vector-4-4gj.png
+    - assets/teste-dev-/images/group-xcs.png
+    - assets/teste-dev-/images/vector-7-ko5.png
+    - assets/teste-dev-/images/vector-5-WRh.png
+    - assets/teste-dev-/images/vector-3-cD9.png
+    - assets/teste-dev-/images/vector-7-HiK.png
+    - assets/teste-dev-/images/ellipse-8-bg-r8T.png
+    - assets/teste-dev-/images/vector-6-aMq.png
+    - assets/teste-dev-/images/vector-7-UZ1.png
+    - assets/teste-dev-/images/vector-5-xjD.png
+    - assets/teste-dev-/images/ellipse-8-bg-tzo.png
+    - assets/teste-dev-/images/ellipse-8-bg-mnb.png
+    - assets/teste-dev-/images/vector-4-wjq.png
+    - assets/teste-dev-/images/bi-arrow-up-short-raX.png
+    - assets/teste-dev-/images/vector-6-Guy.png
+    - assets/teste-dev-/images/bx-bx-search-alt-ibm.png
+    - assets/teste-dev-/images/group-Pqu-wsR.png
+    - assets/teste-dev-/images/carbon-recently-viewed-L4j.png
+    - assets/teste-dev-/images/vector-3-rHy.png
+    - assets/teste-dev-/images/carbon-recently-viewed-N1R.png
+    - assets/teste-dev-/images/vector-7-ZJj.png
+    - assets/teste-dev-/images/bi-arrow-up-short-96T.png
+    - assets/teste-dev-/images/group-fQo.png
+    - assets/teste-dev-/images/ellipse-8-bg-P79.png
+    - assets/teste-dev-/images/carbon-recently-viewed-Jb5.png
+    - assets/teste-dev-/images/ellipse-8-bg-6dH.png
+    - assets/teste-dev-/images/group-tbd.png
+    - assets/teste-dev-/images/group-C8s.png
+    - assets/teste-dev-/images/eva-close-outline-HKy.png
+    - assets/teste-dev-/images/group-Mqd.png
+    - assets/teste-dev-/images/header-kmH.png
+    - assets/teste-dev-/images/group-UEP.png
+    - assets/teste-dev-/images/iconfavoritar-ixb.png
+    - assets/teste-dev-/images/group-Ldq.png
+    - assets/teste-dev-/images/group-j15.png
+    - assets/teste-dev-/images/vector-5-yX1.png
+    - assets/teste-dev-/images/ellipse-8-bg-RSj.png
+    - assets/teste-dev-/images/iconfavoritar-Gew.png
+    - assets/teste-dev-/images/header-kq1.png
+    - assets/teste-dev-/images/header-1d5.png
+    - assets/teste-dev-/images/ellipse-8-bg-jNb.png
+    - assets/teste-dev-/images/vector-3-HxP.png
+    - assets/teste-dev-/images/vector-3-vmh.png
+    - assets/teste-dev-/images/ellipse-8-bg-Cz7.png
+    - assets/teste-dev-/images/vector-3-rrw.png
+    - assets/teste-dev-/images/ellipse-8-bg-MHd.png
+    - assets/teste-dev-/images/ellipse-8-bg-8B5.png
+    - assets/teste-dev-/images/group-XYw.png
+    - assets/teste-dev-/images/ellipse-8-bg-zVh.png
+    - assets/teste-dev-/images/group-fHd.png
+    - assets/teste-dev-/images/ellipse-8-bg-KPh.png
+    - assets/teste-dev-/images/group-4iX.png
+    - assets/teste-dev-/images/iconfavoritar-EHq.png
+    - assets/teste-dev-/images/ellipse-8-bg-Pdu.png
+    - assets/teste-dev-/images/group-ypF.png
+    - assets/teste-dev-/images/ellipse-8-bg-EGb.png
+    - assets/teste-dev-/images/ellipse-8-bg-eDh.png
+    - assets/teste-dev-/images/ellipse-8-bg-AYb.png
+    - assets/teste-dev-/images/ellipse-8-bg-oB9.png
+    - assets/teste-dev-/images/ellipse-8-bg-Uxs.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
